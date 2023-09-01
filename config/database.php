@@ -4,7 +4,7 @@
 // configuration de la base de donnee
 
 $dbHost = 'localhost';
-$dbname = 'webBooks';
+$dbname = 'webbooks';
 $dbUser = 'root';
 $dbPassword = '';
 
