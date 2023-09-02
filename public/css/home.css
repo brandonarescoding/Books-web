@@ -1,0 +1,62 @@
+/* Style pour l'en-tête avec une image de fond */
+.hero {
+    background-color: #3498db; /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #e74c3c;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #c0392b;
+}
+
+/* Style pour les cartes */
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 24px;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+/* Style pour les icônes */
+.icon {
+    font-size: 48px;
+    color: #3498db;
+}
+
+/* Style pour le footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
