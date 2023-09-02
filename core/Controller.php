@@ -10,6 +10,9 @@ class Controller {
 
     // Une méthode de base pour charger une vue
     protected function view($viewName, $data = []) {
+        // Extrait les données pour les rendre accessibles dans la vue
+        extract($data);
+
         require_once 'app/views/' . $viewName . '.php';
     }
 
